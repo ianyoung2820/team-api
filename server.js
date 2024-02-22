@@ -1,1 +1,1 @@
-app.get('/Mosiah', (req,res) => {res.send("Hello Mosiah")}); 
+app.get('/ryan', (req,res) => {res.send("Hello Ryan")}); 
