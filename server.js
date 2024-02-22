@@ -1,0 +1,1 @@
+app.get('/sean', (req,res) => {res.send("Hello Ryan")}); 
