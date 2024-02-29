@@ -1,6 +1,6 @@
 const fetch = require('node-fetch2');
 
-it('Test for david', async () => {
+test('Test for /david', async () => {
     const response = await fetch('http://localhost:3000/david');
     const name = await response.text();
     expect(name).toBe("Hello David");
